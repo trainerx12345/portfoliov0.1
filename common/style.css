@@ -1,0 +1,237 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    border-radius :5px;
+    cursor:url(data:image/png;base64,img/Cursor) 6 1, auto !important;
+
+}
+
+html,
+body {
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif";
+    background-color: #2C3333;
+    color:#E7F6F2;
+margin:0px;
+padding: 0px;
+
+}
+hr {    
+    margin: 75px auto;
+    border-radius: 0%;
+    border-style: none;;
+    border-top-style:dotted;
+    border-color: #E7F6F2;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #E7F6F2;
+    font-family: 'Montserrat', sans-serif;
+  }
+p
+{
+line-height: 2;
+}
+a{
+    color: #A5C9CA;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #EAF6F6;
+  }
+
+  .grad
+  {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;          
+  }
+
+
+
+
+.top-container 
+{
+
+    padding: 50px;
+    max-width: 100%;
+    background-color: #395B64;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+.top-profile
+{
+    align-content: left;
+    width: 15%;
+    position: block;
+    float: left;
+}
+.bottom-cloud
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 10%;
+
+}
+.top-cloud
+{      
+    position: absolute;
+    bottom: 20px;
+    width: 20%;
+    left:20px;
+
+}
+.mountain
+{
+
+    display: absolute;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-text
+{
+    position: block;
+    max-width: 100%;
+    color: #A5C9CA;
+    top:300px;
+
+}
+.middle-container
+{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+
+}
+
+.middle-container-intro
+{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding: 10px;
+    display:flex;
+}
+.profile 
+{
+    display:flex;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 52px 74px rgba(0,21,64,.138559);
+    max-width: 400px;
+
+}
+.profile img 
+{
+    margin: 0 auto 0;
+    max-width: 80%;
+    filter: grayscale(200%) brightness(120%);
+}
+
+.info
+{
+    text-shadow: 3px 4px 3px #A27B5C;
+    position:block;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.skills
+{
+    background-color: #395B64;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 100px 0;
+    text-align: center ;
+    padding: 5%;
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: justify;
+  }
+  .code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  .btn {
+    background: #E7F6F2;
+    background-image: -webkit-linear-gradient(top, #E7F6F2, #395B64);
+    background-image: -moz-linear-gradient(top, #11cdd4, #395B64);
+    background-image: -ms-linear-gradient(top, #11cdd4, #395B64);
+    background-image: -o-linear-gradient(top, #11cdd4, #395B64);
+    background-image: linear-gradient(to bottom, #11cdd4, #395B64);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  .btn:hover {
+    background: #395B64;
+    background-image: -webkit-linear-gradient(top, #395B64, #E7F6F2);
+    background-image: -moz-linear-gradient(top, #395B64, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #395B64, #E7F6F2);
+    background-image: -o-linear-gradient(top, #395B64, #2bc4ad);
+    background-image: linear-gradient(to bottom, #395B64, #2bc4ad);
+    text-decoration: none;
+  }
+  .bottom-container {
+    background-color: #395B64;
+    padding: 50px 0 20px;
+    text-align: center;
+  }
+  
+  .copyright {
+    color: #395;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  .contact-me
+  {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 100px 0;
+    text-align: center ;
+    padding: 5%;
+}
+  
